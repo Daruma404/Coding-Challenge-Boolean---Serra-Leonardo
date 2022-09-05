@@ -1,0 +1,85 @@
+body{
+  background-image: url('img/background.jpg');
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover;
+  font-family: 'Mulish', sans-serif;
+  color: white;
+}
+
+
+
+/* riquadro trasparente */
+.riquadro{
+  width: 50%;
+  height: 50%;
+  background-color:rgba(0,0,0,0.5);
+  border-radius: 20px;
+  margin: 0 300px;
+  padding: 5%;
+  position: absolute;
+  top: 10%;
+  bottom: 50%
+
+}
+
+
+/* Logo e titolo */
+header{
+  text-align: center;
+}
+
+header > div{
+  font-size: 150%;
+  color: rgb(80, 255, 30);
+  font-weight: bold;
+}
+
+
+.logo{
+  width: 25%;
+}
+
+/* Barra navigazione */
+
+nav {
+  background-color: rgb(80, 255, 30);
+  text-align: center;
+  margin: 2px;
+  padding: 8px;
+}
+
+.blocco{
+  padding-top: 8px;
+}
+/* zona main scelta monopattino */
+
+.scegliMonopattino{
+  font-size: 120%;
+  font-weight: 200;
+}
+
+.areaMonopattino, .statoCarica{
+  font-size:80%;
+}
+
+/* livello batteria */
+.statoCarica > div{
+  padding: 10px;
+  border-radius:5px;
+}
+
+.highBattery{
+  background-color: lightgreen;
+  width: 85%;
+}
+
+.mediumBattery{
+  background-color: orange;
+  width: 50%;
+}
+
+.lowBattery{
+  background-color: red;
+  width: 20%;
+}
